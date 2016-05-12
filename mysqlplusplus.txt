@@ -1,0 +1,24 @@
+create database mysqlplusplus;
+use mysqlplusplus;
+create table client
+(Sno int(2),
+C_Name varchar(25),
+C_ID int(4));
+insert into client values
+(1, "Burhanuddin", 9001),
+(2, "Mohammed", 9002),
+(3, "Maryam", 9003),
+(4, "Jamila", 9004),
+(5, "Zulfiquar", 9005),
+(6, "Mufaddal", 9006),
+(7, "Yunus", 9007),
+(8, "Varchaswa", 9008);
+create table bk
+(Name varchar(25),
+Surname varchar(25),
+Fathers_Name varchar(25),
+Mothers_Name varchar(25),
+DOB Date,
+Hobby varchar(20));
+insert into bk
+values("Burhanuddin", "Khomosi", "Zulfiquar", "Jamila", "1998-09-19", "Programming"); 
